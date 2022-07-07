@@ -20,6 +20,10 @@ html {
 }
 
 body {
+  background: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 45vh, left 54vw top 45vh;
   background-color: var(--Dark-cyan);
   color: var(--Very-dark-desaturated-blue);
   display: flex;
@@ -28,6 +32,7 @@ body {
   align-items: center;
   text-align: center;
   height: 100vh;
+  overflow: hidden;
 }
 
 h1 {
